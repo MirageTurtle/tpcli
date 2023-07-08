@@ -12,6 +12,6 @@ You can find that it's very easy to writing these scripts using programming lang
 
 ## Functions
 
-- [ ] Login
-- [ ] Redirect
+- [x] Login
+- [x] Redirect
 - [ ] MAC-IP Bind
