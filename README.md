@@ -13,5 +13,30 @@ You can find that it's very easy to writing these scripts using programming lang
 ## Functions
 
 - [x] Login
-- [x] Redirect
+- [ ] Redirect
+  - [x] Query
+  - [x] Add
+  - [x] Delete
+  - [ ] Set/Edit
 - [ ] MAC-IP Bind
+
+## TODO
+
+### Redirect - Set/Edit
+
+The POST data format of set or edit funtion is like:
+
+```JSON
+{
+  "firewall": {
+    "redirect_8": {
+      "proto": "all",
+      "src_dport_start": 9022,
+      "src_dport_end": 9022,
+      "dest_ip": "192.168.1.100",
+      "dest_port": 22
+    }
+  },
+  "method": "set"
+}
+```
